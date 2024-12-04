@@ -14,12 +14,17 @@ export default function Home() {
 
   return (
     <div className="container mx-auto py-10">
-      <div className="flex justify-between items-center mb-8">
+      <div className="flex max-lg:flex-col justify-between items-center mb-8">
         <h1 className="text-4xl font-bold">Finance Tracker</h1>
+        <div className={"lg:hidden"}>
+          <ThemeToggle />
+        </div>
         <div className="flex items-center gap-4">
           <InitialBalanceDialog />
           <AddOperationDialog />
-          <ThemeToggle />
+          <div className={"max-lg:hidden"}>
+            <ThemeToggle />
+          </div>
         </div>
       </div>
 
