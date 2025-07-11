@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="container mx-auto py-10">
       <div className="flex max-lg:flex-col justify-between items-center mb-8">
-        <h1 className="text-4xl font-bold">Finance Tracker</h1>
+        <h1 className="text-4xl font-bold">Finance Tracker Made By Akif</h1>
         <div className={"lg:hidden"}>
           <ThemeToggle />
         </div>
